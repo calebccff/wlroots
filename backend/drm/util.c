@@ -24,7 +24,7 @@ int32_t calculate_refresh_rate(const drmModeModeInfo *mode) {
 		refresh /= mode->vscan;
 	}
 
-	return refresh;
+	return 60;
 }
 
 // Constructed from http://edid.tv/manufacturer
